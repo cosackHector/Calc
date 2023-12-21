@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Iphone - calculator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="calculator">
+            <div class="form">
+                <form name="form">
+                    <input type="text" name="formview" readonly value="">
+                </form>
+            </div>
+            <div class="item" id="brown" onclick="clean()">AC</div>
+            <div class="item" id="brown" onclick="back()">&#8592;</div>
+            <div class="item" id="brown" onclick="sqrt()">&#8730;</div>
+            <div class="item" id="orange" onclick="display('&#247')">&#247;</div>
+            <div class="item" id="standart" onclick="display('7')">7</div>
+            <div class="item" id="standart" onclick="display('8')">8</div>
+            <div class="item" id="standart" onclick="display('9')">9</div>
+            <div class="item" id="orange" onclick="display('&#215;')">&#215;</div>
+            <div class="item" id="standart" onclick="display('4')">4</div>
+            <div class="item" id="standart" onclick="display('5')">5</div>
+            <div class="item" id="standart" onclick="display('6')">6</div>
+            <div class="item" id="orange" onclick="display('-')">&#8212;</div>
+            <div class="item" id="standart" onclick="display('1')">1</div>
+            <div class="item" id="standart" onclick="display('2')">2</div>
+            <div class="item" id="standart" onclick="display('3')">3</div>
+            <div class="item" id="orange" onclick="operators()">+</div>
+            <div class="item zero" id="standart" onclick="display('0')">0</div>
+            <div class="item" id="standart" onclick="display(',')">,</div>
+            <div class="item result" id="orange">=</div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
